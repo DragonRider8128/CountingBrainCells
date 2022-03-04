@@ -95,7 +95,6 @@ class soundSettings(QDialog):
 
         super(soundSettings, self).__init__()
         uic.loadUi("UI/audioDialog.ui", self)
-        self.setWindowIcon(QtGui.QIcon('images/icon.png'))
         
         self.mute = QPixmap("Images/mute.png")
         self.volume_img = QPixmap("Images/volume.png")
@@ -168,6 +167,9 @@ class questionPage(QMainWindow):
 
         if radioBtn.isChecked():
             self.input = radioBtn.text()
+        else:
+            radioBtn.setChecked(False)
+
 
     def go_home(self):
         widget.removeWidget(self)
@@ -276,8 +278,8 @@ class questionPage(QMainWindow):
                 self.go_home()
                 msg = QMessageBox()
                 msg.setIcon(QMessageBox.Critical)
-                msg.setText("Invalid JSON File")
-                msg.setInformativeText("Try to check your formatting.")
+                msg.setText("Invalid File")
+                msg.setInformativeText("Make sure you formatting is valid and it follows the template.")
                 msg.setWindowTitle("Custom File Error")
                 msg.exec_()
                 return
@@ -301,7 +303,7 @@ class questionPage(QMainWindow):
             self.option4.show()
 
             self.radioGroup = QButtonGroup()
-            self.radioGroup.setExclusive(False)
+            self.radioGroup.setExclusive(True)
             self.radioGroup.addButton(self.option1)
             self.radioGroup.addButton(self.option2)
             self.radioGroup.addButton(self.option3)
@@ -335,17 +337,14 @@ class loadCustom(QDialog):
         super(loadCustom, self).__init__()
         uic.loadUi("UI/load_quiz.ui",self)
         self.load_btn.clicked.connect(self.load_file)
-        self.setWindowIcon(QtGui.QIcon('images/icon.png'))
     
     def load_file(self):
         global quiz_category
         global custom_path
 
-        fname = QFileDialog.getOpenFileName(self, "Load Quiz File", "", "JSON Files (*json)")
+        fname = QFileDialog.getOpenFileName(self, "Load Quiz File", "", "JSON Files (*json)")[0]
         
-        if fname:
-            fname = fname[0]
-
+        if fname and fname != "":
             custom_path = fname
             self.close()
             quiz_category = "Custom"
@@ -443,7 +442,6 @@ class triviaConfigure(QDialog):
         super(triviaConfigure, self).__init__()
         uic.loadUi("UI/choose_menu.ui", self)
         self.play_btn.clicked.connect(self.play)
-        self.setWindowIcon(QtGui.QIcon('images/icon.png'))
     
     def play(self):
         global quiz_category
@@ -519,13 +517,11 @@ class aboutDialog(QDialog):
         super(aboutDialog, self).__init__()
         uic.loadUi("UI/aboutDialog.ui", self)
         self.buttonBox.rejected.connect(self.close)
-        self.setWindowIcon(QtGui.QIcon('images/icon.png'))
 
 class creditsDialog(QDialog):
     def __init__(self):
         super(creditsDialog, self).__init__()
         uic.loadUi("UI/credits.ui", self)
-        self.setWindowIcon(QtGui.QIcon('images/icon.png'))
 
 app = QApplication(sys.argv)
 app.setWindowIcon(QtGui.QIcon('Images/icon.png'))
@@ -534,7 +530,6 @@ widget = QStackedWidget()
 home = Home()
 result = Result()
 end_screen = endScreen()
-widget.setWindowIcon(QtGui.QIcon('images/icon.png'))
 
 widget.addWidget(home)
 widget.addWidget(result)
