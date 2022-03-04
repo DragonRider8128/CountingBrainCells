@@ -1,0 +1,16 @@
+[
+    {"question":"If 1=3, 2=3, 3=5, 4=4, 5=4, then 6=_______","correct_answer":["3 because 'six' has three letters.","3","three"]},    
+    {"question":"There are 49 dogs signed up for a dog show. There are 36 more small dogs than large dogs. How many small dogs have signed up to compete?","correct_answer":["42.5"]}, 
+    {"question":"There is a three-digit number. The second digit is four times as big as the third digit, while the first digit is three less than the second digit. What is the number?","correct_answer":["141"]},
+    {"question":"The day before yesterday I was 25. The next year I will be 28. This is true only one day in a year. What day is my Birthday?","correct_answer":["December 31st","31st December","December 31","31 December"]},
+    {"question":"Solve: -15+(-5x)=0","correct_answer":["-3"]},
+    {"question":"A man is climbing up a mountain which is inclined. He has to travel 100 km to reach the top of the mountain. Every day He climbs up 2 km forward in the day time. Exhausted, he then takes rest there at night time. At night, while he is asleep, he slips down 1 km backwards because the mountain is inclined. Then how many days does it take him to reach the mountain top?","correct_answer":["99 Days","99"]},   
+    {"question":"If 13 x 12 = 651 & 41 x 23 = 448, then, 24 x 22 =?","correct_answer":["924"]},   
+    {"question":"Look at this series: 53, 53, 40, 40, 27, 27, … What number should come next?","correct_answer":["14"]},
+    {"question":"How many times can you subtract 10 from 100?","correct_answer":["Once","1","One"]},
+    {"question":"If A is substituted by 4, B by 3, C by 2, D by 4, E by 3, F by 2 and so on, then what will be total of the numerical values of the letters of the word SICK?","correct_answer":["11","eleven"]},   
+    {"question":"A number of cats got together and decided to kill between them 999919 rats. Every cat killed an equal number of rats. Each cat killed more rats than there were cats. How many rats do you think that each cat killed?","correct_answer":["1009"]},
+    {"question":"Arrange four nines(9) and a one(1) and only one mathematical symbol to make it equal to 100?","correct_answer":["199-99=100","199 - 99 = 100","199-99","199 - 99"]},
+    {"question":"Which number multiplied by itself will give the output as 12345678987654321?","correct_answer":["111,111,111","111111111"]}, 
+    {"question":"How many letters of the word FAINTS, will their order in the word and that when the letters are arranged in the alphabetical order, remain the same?","correct_answer":["2","Two"]}
+]

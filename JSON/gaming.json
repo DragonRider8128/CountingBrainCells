@@ -1,0 +1,22 @@
+[
+    {"question":"What is the most popular game in the world?","correct_answer":["Minecraft"]},    
+    {"question":"Who is the protagonist of the Portal franchise?","correct_answer":["Chell"]}, 
+    {"question":"Who is the main antagonist who appears both in Portal and Portal 2?","correct_answer":["GLaDOS","Genetic Life and Disk Operating System"]},
+    {"question":"What is the name of the race of aliens who want to exterminate humanity and destroy Earth's resources in Half-Life 2?","correct_answer":["Combine","The Combine"]},
+    {"question":"Which game was considered to be the most hyped video game of the past decade but ended up failing horribly?","correct_answer":["Cyberpunk 2077"]},
+    {"question":"What colour will Killjoy's crosshair become if it is placed in a viable position for the turret in Valorant?","correct_answer":["Pink"]},   
+    {"question":"What is the name of the 2021 Battlefield game?","correct_answer":["Battlefield 2042","2042"]},   
+    {"question":"In Minecraft, what is the name of the number used to randomly generate a world?","correct_answer":["Seed","A seed"]},
+    {"question":"What is the highest Protection level in Survial Minecraft?","correct_answer":["Protection IV","Protection 4","Four","VI","4","Protection Four"]},
+    {"question":"What does the 'GO' stand for in CS:GO?","correct_answer":["Global Offensive"]},   
+    {"question":"What is the name of Valve's engine which Half-Life 2 and the Portal games run on?","correct_answer":["Source","Source Engine"]},
+    {"question":"What does the PU stand for in PUBG?","correct_answer":["PlayerUnknown's","Player Unknown's","Player Unknown","PlayerUnknown"]},
+    {"question":"What was the name of the Mario game for the Nintendo 64?","correct_answer":["Super Mario 64"]}, 
+    {"question":"Which gun has the fastest bullets in Superhot: Mind Control Delete?","correct_answer":["Railgun"]},
+    {"question":"Who is the composer of the Pigstep and Otherside music discs in Minecraft?","correct_answer":["Lena Raine"]},
+    {"question":"The latest Tetris game is called what?","correct_answer":["Tetris Effect: Connected","Tetris Effect Connected"]},   
+    {"question":"Which role in Among Us allows you to vent as a crewmate?","correct_answer":["Engineer","The Engineer"]},
+    {"question":"True or False? Orange gel is allows you to jump higher in Portal 2.","correct_answer":["False"]},
+    {"question":"What is the name of the online tool which allows you to create a custom Xbox Controller?","correct_answer":["Design Lab","Xbox Design Lab"]},
+    {"question":"What is the colour of the terracotta block in the centre of a Minecraft Desert Pyramid?","correct_answer":["Blue"]}
+]

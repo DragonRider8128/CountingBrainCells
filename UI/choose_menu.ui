@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>665</width>
+    <height>507</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>11</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Open Trivia Configuration</string>
+  </property>
+  <widget class="QLabel" name="title">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>30</y>
+     <width>661</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana Pro Cond Semibold</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Open Trivia Database Quiz: Configuration</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>80</y>
+     <width>681</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Number of Questions (max. 50)</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="question_amount">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>150</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <number>50</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>200</y>
+     <width>671</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Category</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="category">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>250</y>
+     <width>361</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Any Category</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>General Knowledge</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Entertainment: Books</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Entertainment: Films</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Entertainment: Music</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Entertainment: Theatres</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Entertainment: Television</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Entertainment: Video Games</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Entertainment: Board Games</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Science and Nature</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Science: Computers</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Science: Maths</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mythology</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sports</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Geography</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>History</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Politics</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Art</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Celebrities</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Animals</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Vehicles</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Entertainment: Comics</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Science: Gadgets</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Entertainment: Anime and Manga</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Entertainment: Cartoons</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>300</y>
+     <width>671</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Difficulty</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="difficulty">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>340</y>
+     <width>361</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Any Difficulty</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Easy</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Medium</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Hard</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="play_btn">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>410</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Play</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
