@@ -243,10 +243,12 @@ class questionPage(QMainWindow):
                     self.option3.hide()
                     self.option4.hide()
                 
+                self.radioGroup.setExclusive(False)
                 self.option1.setChecked(False)
                 self.option2.setChecked(False)
                 self.option3.setChecked(False)
                 self.option4.setChecked(False)
+                self.radioGroup.setExclusive(True)
             
             self.question_label.setText(self.quiz[self.current_question]["question"])
 

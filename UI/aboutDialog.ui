@@ -226,7 +226,7 @@
   <widget class="QLabel" name="label_7">
    <property name="geometry">
     <rect>
-     <x>260</x>
+     <x>240</x>
      <y>320</y>
      <width>171</width>
      <height>171</height>
@@ -236,7 +236,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../images/drtlogo1.png</pixmap>
+    <pixmap>../images/icon.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
